@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      meta(http-equiv="X-UA-Compatible", content="ie=edge")
+      title TreinaWeb
+   body
+   each val in data
+      li 
+         div= val.nome
+         div= val.categoria
+         br
+   br
+   br
+   form(action="/" method="post")
+      label Nome:
+      input(
+         type="text"
+         name="nome"
+         required
+      )
+      label Categoria:
+      select(name="categoria" required)
+         option Back-End
+         option Desenvolvimento de Jogos
+         option Front-End
+         option Mobile
+      input(
+         type="submit"
+         value="enviar"   
+      )

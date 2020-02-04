@@ -1,0 +1,12 @@
+
+Disparando www.google.com [216.239.36.117] com 32 bytes de dados:
+Resposta de 216.239.36.117: bytes=32 tempo=25ms TTL=55
+Resposta de 216.239.36.117: bytes=32 tempo=24ms TTL=55
+Resposta de 216.239.36.117: bytes=32 tempo=24ms TTL=55
+Resposta de 216.239.36.117: bytes=32 tempo=25ms TTL=55
+
+Estat¡sticas do Ping para 216.239.36.117:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 24ms, M ximo = 25ms, M‚dia = 24ms

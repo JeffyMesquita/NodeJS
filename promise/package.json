@@ -1,0 +1,17 @@
+{
+  "name": "treina_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create_file": "touch log.txt",
+    "ping_log": "ping www.google.com > log.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.5.0",
+    "promise": "^8.0.3"
+  }
+}
